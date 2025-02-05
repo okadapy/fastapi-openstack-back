@@ -83,7 +83,7 @@ class Settings(BaseSettings):
 
     # gatekeeper settings!
     # this is to ensure that people read the damn instructions and changelogs
-    i_read_the_damn_docs: bool = False
+    i_read_the_damn_docs: bool = True
 
     @field_validator("api_root")
     @classmethod
